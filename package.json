@@ -1,0 +1,24 @@
+{
+  "name": "@a417420427/use-upload",
+  "version": "1.0.1",
+  "description": "an react hook of upload",
+  "main": "lib/index.js",
+  "author": "zf",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn compile",
+    "compile": "tsc -p ./tsconfig.compile.json --module commonjs --outDir lib/",
+		"prepublishOnly": "yarn compile"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.14",
+    "axios": "^0.21.1",
+    "react": "^17.0.2"
+  }
+}
